@@ -17,11 +17,27 @@ const App = () => (
     <Menu.SubMenu key="my-projects" title="My Projects" icon={<FileDoneOutlined />}>
 
       <Menu.Item key="one" icon={<AppstoreOutlined />}>
-        <a class="nav-link" href="/project">Project One</a>
+        <a class="nav-link" href="/password">Password Generator</a>
       </Menu.Item>
       
       <Menu.Item key="two" icon={<AppstoreOutlined />}>
-        <a class="nav-link" href="/project">Project Two</a>
+        <a class="nav-link" href="/weather">Weather App</a>
+      </Menu.Item>
+      
+      <Menu.Item key="two" icon={<AppstoreOutlined />}>
+        <a class="nav-link" href="/quiz">Quiz Machine</a>
+      </Menu.Item>
+      
+      <Menu.Item key="two" icon={<AppstoreOutlined />}>
+        <a class="nav-link" href="/schedule">Schedutron</a>
+      </Menu.Item>
+      
+      <Menu.Item key="two" icon={<AppstoreOutlined />}>
+        <a class="nav-link" href="/recipe">RecipeIO</a>
+      </Menu.Item>
+      
+      <Menu.Item key="two" icon={<AppstoreOutlined />}>
+        <a class="nav-link" href="/blog">Tech Blog</a>
       </Menu.Item>
 
     </Menu.SubMenu>

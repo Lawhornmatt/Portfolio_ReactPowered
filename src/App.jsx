@@ -9,6 +9,12 @@ import Menu from './components/Menu.jsx'
 import Myfooter from './components/Footer.jsx'
 import Emailform from './components/Contact.jsx'
 import Resume from './components/Resume.jsx'
+import Password from './components/Password.jsx'
+import Weather from './components/Weather.jsx'
+import Quiz from './components/Quiz.jsx'
+import Schedule from './components/Schedule.jsx'
+import Recipe from './components/Recipe.jsx'
+import Blog from './components/Blog.jsx'
 
 function App() {
 
@@ -36,6 +42,30 @@ function App() {
           <Route 
             path="/resume" 
             element={<Resume/>}
+          />
+          <Route 
+            path="/password" 
+            element={<Password/>}
+          />
+          <Route 
+            path="/weather" 
+            element={<Weather/>}
+          />
+          <Route 
+            path="/quiz" 
+            element={<Quiz/>}
+          />
+          <Route 
+            path="/blog" 
+            element={<Blog/>}
+          />
+          <Route 
+            path="/recipe" 
+            element={<Recipe/>}
+          />
+          <Route 
+            path="/schedule" 
+            element={<Schedule/>}
           />
         </Routes>
       </Router>
