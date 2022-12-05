@@ -7,6 +7,8 @@ import Homepage from './components/Homepage.jsx'
 import Pedestal from './components/Pedestal.jsx'
 import Menu from './components/Menu.jsx'
 import Myfooter from './components/Footer.jsx'
+import Emailform from './components/Contact.jsx'
+import Resume from './components/Resume.jsx'
 
 function App() {
 
@@ -26,6 +28,14 @@ function App() {
           <Route 
             path="/project" 
             element={<Pedestal/>}
+          />
+          <Route 
+            path="/contact" 
+            element={<Emailform/>}
+          />
+          <Route 
+            path="/resume" 
+            element={<Resume/>}
           />
         </Routes>
       </Router>

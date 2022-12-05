@@ -6,9 +6,9 @@ const App = () => (
 
   <Menu mode="horizontal" defaultSelectedKeys={['about']}>
 
-    <Menu.Item key="logo" disabled="true" style={{ fontSize: 50 }}>
-      <span>Matt Lawhorn Portfolio</span>  
-    </Menu.Item>
+    
+    <span style={{ fontSize: 50 }}>Matt Lawhorn Portfolio</span>  
+    
 
     <Menu.Item key="about" icon={<QuestionOutlined />}>
       <a class="nav-link" href="/about">About Me</a>
