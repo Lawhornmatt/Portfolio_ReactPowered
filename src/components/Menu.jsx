@@ -6,8 +6,8 @@ const App = () => (
 
   <Menu mode="horizontal" defaultSelectedKeys={['about']}>
 
-    <Menu.Item key="about" icon={<HomeOutlined />}>
-      <a class="nav-link" href="/">Home</a>
+    <Menu.Item disabled="true" >
+      <span>Matt Lawhorn Portfolio</span>  
     </Menu.Item>
 
     <Menu.Item key="about" icon={<QuestionOutlined />}>
@@ -22,6 +22,14 @@ const App = () => (
       
       <Menu.Item key="two" icon={<AppstoreOutlined />}>
         <a class="nav-link" href="/project">Project Two</a>
+      </Menu.Item>
+
+      <Menu.Item key="contact" icon={<ContactsOutlined />}>
+        <a class="nav-link" href="/contact">Contact Me</a>
+      </Menu.Item>
+
+      <Menu.Item key="resume" icon={<ContainerOutlined />}>
+        <a class="nav-link" href="/resume">Resume</a>
       </Menu.Item>
 
     </Menu.SubMenu>
