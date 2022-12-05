@@ -3,10 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Lawhornmatt.github.io/Portfolio_ReactPowered",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@ant-design/icons": "^4.8.0",
@@ -22,6 +25,7 @@
     "@types/react-dom": "^18.0.8",
     "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^2.2.0",
+    "gh-pages": "^4.0.0",
     "vite": "^3.2.3"
   }
 }
