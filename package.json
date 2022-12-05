@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://Lawhornmatt.github.io/Portfolio_ReactPowered",
+  "homepage": "https://lawhornmatt.github.io/Portfolio_ReactPowered",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
