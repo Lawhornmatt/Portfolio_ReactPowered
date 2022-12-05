@@ -6,6 +6,7 @@ import About from './components/About.jsx'
 import Homepage from './components/Homepage.jsx'
 import Pedestal from './components/Pedestal.jsx'
 import Menu from './components/Menu.jsx'
+import Myfooter from './components/Footer.jsx'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
           />
         </Routes>
       </Router>
+      <Myfooter />
     </div>
 
   );

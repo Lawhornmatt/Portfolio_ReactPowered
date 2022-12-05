@@ -1,12 +1,12 @@
 import React from 'react';
 import { Menu } from 'antd';
-import { HomeOutlined, AppstoreOutlined, QuestionOutlined, FileDoneOutlined } from '@ant-design/icons';
+import { HomeOutlined, AppstoreOutlined, QuestionOutlined, FileDoneOutlined, ContactsOutlined, ContainerOutlined } from '@ant-design/icons';
 
 const App = () => (
 
   <Menu mode="horizontal" defaultSelectedKeys={['about']}>
 
-    <Menu.Item disabled="true" >
+    <Menu.Item key="logo" disabled="true" style={{ fontSize: 50 }}>
       <span>Matt Lawhorn Portfolio</span>  
     </Menu.Item>
 
@@ -24,6 +24,8 @@ const App = () => (
         <a class="nav-link" href="/project">Project Two</a>
       </Menu.Item>
 
+    </Menu.SubMenu>
+
       <Menu.Item key="contact" icon={<ContactsOutlined />}>
         <a class="nav-link" href="/contact">Contact Me</a>
       </Menu.Item>
@@ -32,7 +34,6 @@ const App = () => (
         <a class="nav-link" href="/resume">Resume</a>
       </Menu.Item>
 
-    </Menu.SubMenu>
 
   </Menu>
 );
