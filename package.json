@@ -1,7 +1,7 @@
 {
   "name": "challenge20-lawhorn-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "homepage": "https://Lawhornmatt.github.io/Portfolio_ReactPowered",
   "scripts": {
